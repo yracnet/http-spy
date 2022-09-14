@@ -1,0 +1,41 @@
+{
+  "name": "http-spy",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "A simple zero-configuration command-line http spy server",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yracnet/http-spy.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "static",
+    "http",
+    "https",
+    "http-server",
+    "https-server",
+    "http-proxy",
+    "https-proxy",
+    "http-spy",
+    "https-spy",
+    "server",
+    "proxy",
+    "spy"
+  ],
+  "author": "Willyams <yracnet@gmail.com>",
+  "engines": {
+    "node": ">=12.16"
+  },
+  "contributors": [
+    {
+      "name": "Willyams Yujra",
+      "email": "yracnet@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "http-spy": "./bin/http-spy"
+  }
+}
